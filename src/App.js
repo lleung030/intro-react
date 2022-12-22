@@ -38,7 +38,7 @@ export default function App() {
           {/* <Route path="/blog" element={<Blog />} /> */}
           <Route path="/blog">
             <Route path=":uid">
-            <Route path=":id" element={<BlogSingle />} />
+              <Route path=":id" element={<BlogSingle />} />
             </Route>
             <Route path="" element={<Blog />} />
           </Route>
